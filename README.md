@@ -40,4 +40,5 @@ face_encoding = np.array(face_encoder.compute_face_descriptor(image, pose_landma
 
 Finally, we need a classifier (Linear SVM or other classifier) to find the person in our database of known people who has the closest measurements to our test image. We train the classifier with the measurements as input.
 
+![Alt text](result.png)
 
